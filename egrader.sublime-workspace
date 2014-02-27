@@ -3,6 +3,10 @@
 	{
 		"selected_items":
 		[
+			[
+				"socre_input",
+				"socre_input"
+			]
 		]
 	},
 	"buffers":
@@ -11,9 +15,13 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 147.0,
+		"height": 347.0,
 		"selected_items":
 		[
+			[
+				"view",
+				"LaTeXTools: View PDF"
+			],
 			[
 				"push",
 				"Git: Push"
@@ -79,10 +87,6 @@
 				"Git: Commit"
 			],
 			[
-				"view",
-				"LaTeXTools: View PDF"
-			],
-			[
 				"view pdf",
 				"LaTeXTools: View PDF"
 			],
@@ -95,7 +99,7 @@
 				"LaTeXTools: Jump to PDF"
 			]
 		],
-		"width": 336.0
+		"width": 647.0
 	},
 	"console":
 	{
@@ -115,6 +119,12 @@
 	},
 	"file_history":
 	[
+		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/background.js",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.js",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.css",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLiu.html",
+		"/Users/zhaoyangliu/Desktop/current/JOB/CV/amazon/Zhaoyangliu_CV.tex",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLv.html",
 		"/Users/zhaoyangliu/Desktop/holy-grail-3-column-liquid-layout-percentage/index.htm",
 		"/Users/zhaoyangliu/Desktop/current/330/ACER/Egrader.css",
 		"/Users/zhaoyangliu/Desktop/current/NU_life/account/nu_cs_account.txt",
@@ -134,7 +144,6 @@
 		"/Users/zhaoyangliu/chromium/src/src/outputx",
 		"/Users/zhaoyangliu/chromium/src/src/crossABC.py",
 		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/changeJSON.py",
-		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/background.js",
 		"/Users/zhaoyangliu/chromium/src/src/frameABC.txt",
 		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/iframe_web.txt",
 		"/Users/zhaoyangliu/Desktop/frameABC.txt",
@@ -180,6 +189,16 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"position:relative;top:-3px;",
+			"\\\"",
+			"score_1",
+			"class",
+			"socre",
+			"<br>\n                <br>",
+			"id=\"socre_input\"",
+			"socre_input",
+			"input class",
+			"<input class=\"form-control\" type = \"text\" size = \"10\"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = \"notes_image\" style=\"position:relative;top:-3px;\" src=\"notes.png\">",
 			"background",
 			"fff",
 			"background",
@@ -297,17 +316,7 @@
 			"track",
 			"tab",
 			"crossDomainLink",
-			"WebPage",
-			"crossOpen",
-			"writeToHTML",
-			"secondCross",
-			"i",
-			"runned",
-			"crossDomainLink.push",
-			"runned",
-			"fetchFinalList",
-			"buildCross.runned",
-			"fetchFinalList"
+			"WebPage"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -325,6 +334,11 @@
 	},
 	"groups":
 	[
+		{
+			"sheets":
+			[
+			]
+		},
 		{
 			"sheets":
 			[
@@ -348,11 +362,18 @@
 				0,
 				1,
 				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
 			]
 		],
 		"cols":
 		[
 			0.0,
+			0.458499659708,
 			1.0
 		],
 		"rows":
