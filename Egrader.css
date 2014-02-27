@@ -8,5 +8,9 @@ body {
   padding-bottom: 20px;
 }
 
-.container{
+.navContainer{
+    margin-left: 1px;
+    margin-right: 1px;
+    margin-bottom: 0px;
+    margin-top: 2px;
 }
