@@ -1,0 +1,419 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 147.0,
+		"selected_items":
+		[
+			[
+				"push",
+				"Git: Push"
+			],
+			[
+				"quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git add...",
+				"Git: Add..."
+			],
+			[
+				"git quick",
+				"Git: Quick Commit"
+			],
+			[
+				"git add",
+				"Git: Add..."
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"python",
+				"Set Syntax: Python"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"pull",
+				"Git: Pull"
+			],
+			[
+				"git Staus",
+				"Git: Status"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"git status",
+				"Git: Status"
+			],
+			[
+				"add...",
+				"Git: Add..."
+			],
+			[
+				"git add c",
+				"Git: Add Current File"
+			],
+			[
+				"git commit",
+				"Git: Commit"
+			],
+			[
+				"view",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"view pdf",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"toggle",
+				"LaTeXTools: Toggle focus (PDF/editor)"
+			],
+			[
+				"jum",
+				"LaTeXTools: Jump to PDF"
+			]
+		],
+		"width": 336.0
+	},
+	"console":
+	{
+		"height": 139.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/zhaoyangliu/Desktop/holy-grail-3-column-liquid-layout-percentage/index.htm",
+		"/Users/zhaoyangliu/Desktop/current/330/ACER/Egrader.css",
+		"/Users/zhaoyangliu/Desktop/current/NU_life/account/nu_cs_account.txt",
+		"/Users/zhaoyangliu/Desktop/current/NU_life/account/nu_teacher_account.txt",
+		"/Users/zhaoyangliu/Desktop/current/340/tcp_module_smaple_code.cc",
+		"/Users/zhaoyangliu/Desktop/current/2014Spring/2014Fall/read me",
+		"/Users/zhaoyangliu/Desktop/tcp_module_smaple_code.cc",
+		"/Users/zhaoyangliu/Desktop/tcp_module_smaple_code.cc.txt",
+		"/Users/zhaoyangliu/Desktop/current/2014Spring/322/readme.txt",
+		"/Users/zhaoyangliu/Desktop/current/2014Spring/348/readme.txt",
+		"/Users/zhaoyangliu/Desktop/safeback.html",
+		"/Users/zhaoyangliu/Desktop/read me",
+		"/Users/zhaoyangliu/Desktop/laptop/semRep/kobus-desc081204.txt",
+		"/Users/zhaoyangliu/Desktop/Answers/ABC.meaning1.hit13.txt",
+		"/Users/zhaoyangliu/Desktop/Answers/ABC.meaning1.hit8.txt",
+		"/Users/zhaoyangliu/Desktop/Answers/ABC.meaning1.hit1.txt",
+		"/Users/zhaoyangliu/chromium/src/src/outputx",
+		"/Users/zhaoyangliu/chromium/src/src/crossABC.py",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/changeJSON.py",
+		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/background.js",
+		"/Users/zhaoyangliu/chromium/src/src/frameABC.txt",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/iframe_web.txt",
+		"/Users/zhaoyangliu/Desktop/frameABC.txt",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/json_file",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/web.json",
+		"/Users/zhaoyangliu/Desktop/current/499/html_files/gen_html.py",
+		"/Users/zhaoyangliu/Desktop/current/499/html_files/gen_list.py",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/deal_weblist.py",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/weblist.txt",
+		"/Users/zhaoyangliu/Desktop/current/499_2/crossABC/dealed_weblist.txt",
+		"/Users/zhaoyangliu/chromium/src/src/tmall",
+		"/Users/zhaoyangliu/chromium/src/src/alibaba",
+		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/test.html",
+		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/background.html",
+		"/Users/zhaoyangliu/chromium/src/src/content/renderer/render_view_impl.cc",
+		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/content_script.js",
+		"/Users/zhaoyangliu/chromium/src/src/output3",
+		"/Users/zhaoyangliu/tmp/test.py",
+		"/Users/zhaoyangliu/Desktop/current/330/calculator/calc.html",
+		"/Users/zhaoyangliu/Desktop/current/330/ACER/Egrader.html",
+		"/Users/zhaoyangliu/Desktop/current/330/ACER/readme.md",
+		"/Users/zhaoyangliu/Desktop/current/330/ACER/Egrader.js",
+		"/Users/zhaoyangliu/Desktop/dir_colors",
+		"/Users/zhaoyangliu/.dir_colors",
+		"/Users/zhaoyangliu/.vim/colors/molokai.vim",
+		"/Users/zhaoyangliu/Desktop/untitled.tex",
+		"/Users/zhaoyangliu/Desktop/untitled.pdf"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"background",
+			"fff",
+			"background",
+			"right",
+			"colleft",
+			"colright",
+			" = ",
+			"root",
+			"hongyu",
+			"chenkai",
+			"kaichen",
+			"Hongyu",
+			"xiang",
+			"ChiZhou",
+			"zhaoyang",
+			"yc",
+			"xp",
+			"BEG",
+			"getDomain",
+			"{",
+			"frameDomains",
+			"\"[{\"url\":\"http://www.ebay.com\",\"frameDomains\":[\"doubleclick\"],\"crossLink\":\"http://www.ebaymotorsblog.com\"},{\"url\":\"http://www.sohu.com\",\"frameDomains\":[\"jd\"],\"crossLink\":\"http://www.sogou.com/\"},{\"url\":\"http://www.163.com\",\"frameDomains\":[\"126\"],\"crossLink\":\"http://note.youdao.com/#f=topnav\"},{\"url\":\"http://www.tumblr.com\",\"frameDomains\":[\"yahoo\"],\"crossLink\":\"https://www.google.com/adsense/support/bin/answer.py?hl=en&amp;answer=12654\"},{\"url\":\"http://www.xinhuanet.com\",\"frameDomains\":[\"189\",\"msn\"],\"crossLink\":\"http://www.bydauto.com.cn/\"},{\"url\":\"http://www.amazon.co.jp\",\"frameDomains\":[\"doubleclick\"],\"crossLink\":\"http://www.bookdepository.co.uk/\"}]\"",
+			"frameEnd",
+			"<iframe",
+			"frame",
+			"crossOpenList",
+			"d",
+			"CrossOpen",
+			"BEG",
+			"crossDomainLink",
+			"BEG",
+			"removeTab",
+			"testPage",
+			"chrome.tabs.create({ url: testPage});",
+			"});\n",
+			"chrome.tabs.create({ url: testPage});",
+			"test.html",
+			"imageAlreadySet",
+			"views",
+			"thirdCross",
+			"secondCross",
+			"match",
+			"buildCross.runned",
+			"message",
+			"chrome.tab.create( {",
+			"fetchWeblist",
+			"fetchFinalList",
+			"start",
+			"},\n",
+			"BEG",
+			"build.",
+			"currentI - 1",
+			"current - 1",
+			"ebay",
+			"crossOpenListC",
+			"constructList",
+			"dataliberation",
+			"finished output",
+			"finished",
+			"BEG",
+			"ebay",
+			"BEG",
+			"content script",
+			"buildCross",
+			"getViews",
+			"openLinkB",
+			"getViews",
+			"view",
+			"request",
+			"webList",
+			"webDomain1",
+			"BEG",
+			"create",
+			"BEG",
+			"click",
+			"BEG",
+			"getElementsByTagName",
+			"ntByTag",
+			"getElementByTagName",
+			"create",
+			"getElementsByTagName",
+			"TagName",
+			"getElementById",
+			"BEG",
+			"tmpSplit",
+			"tab",
+			"tmpSplit",
+			"runned",
+			"POSTMESSAGE_SRC_DEST_BEG",
+			"garuda",
+			"dod",
+			"buildCross.crossOpenList[x].C",
+			"garuda",
+			"POSTMESSAGE_SRC_DEST_BEG",
+			"POSTMESSAGE_SRC_DEST_BEG\n",
+			"POSTMESSAGE_SRC_DEST_BEG",
+			"youtube",
+			"BrowserCommand",
+			"command",
+			"open",
+			"POSTMESSAGE_SRC_DEST_BEG",
+			"start",
+			"3000",
+			"third",
+			"= new Arr",
+			"crossOpenListC",
+			"constructList",
+			"TrackHead.crossDomainLink",
+			"crossDomainLink",
+			"soso",
+			"match",
+			"hao123",
+			"crossDomainLink",
+			"fetchWeblist",
+			"track",
+			"tab",
+			"crossDomainLink",
+			"WebPage",
+			"crossOpen",
+			"writeToHTML",
+			"secondCross",
+			"i",
+			"runned",
+			"crossDomainLink.push",
+			"runned",
+			"fetchFinalList",
+			"buildCross.runned",
+			"fetchFinalList"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"="
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 25.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 166.0
+	},
+	"output.git":
+	{
+		"height": 112.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"project": "egrader.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 173.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
