@@ -3,14 +3,30 @@
     padding:0;
 }
 
-body {
-  padding-top: 50px;
-  padding-bottom: 20px;
+.navbar{
+    border-radius: 0px;
 }
 
-.navContainer{
-    margin-left: 1px;
-    margin-right: 1px;
-    margin-bottom: 0px;
-    margin-top: 2px;
+.tools{
+    background-color: #eeeeee;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn.btn-default.smaller{
+     padding: 6px 2px;
+}
+
+.btn-toolbar{
+    margin-left: 33%;
+}
+
+.btn-group{
+    margin-right: 50px;
+}
+
+.hw{
+    overflow: scroll;
+    height: 100%;
+    border: 1px #eee solid;
 }
