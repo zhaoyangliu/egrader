@@ -30,11 +30,11 @@ $(function(){
 });
 
 function zoomIn(){
-    $("#hwImg").css('width', $("#hwImg").width * 1.2);
+    $("#hwImg").css('width', $("#hwImg").width() + $(window).width() * 0.1);
     $("#hwImg").css('height', 'auto');
 }
 
 function zoomOut(){
-    $("#hwImg").css('width', $("#hwImg").width * 0.8);
+    $("#hwImg").css('width', $("#hwImg").width() - $(window).width() * 0.1);
     $("#hwImg").css('height', 'auto');
 }
