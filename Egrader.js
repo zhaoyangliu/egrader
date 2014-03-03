@@ -1,7 +1,7 @@
 $(function(){
 	$("#comment1").hide();
 	$("#score_completed").hide();
-	$(".col-md-6").hide();
+	$("#left_column, #right_column").hide();
 	window.mark_press = 0;
 	window.hw_img = 0;
 	window.moveBar = 1;
@@ -76,15 +76,11 @@ $(function(){
 
 
 function moveEgrader() {
-	// $("#menu, #menu_word").fadeOut('slow', function(){
- //  		$(this).animate({'top': '-=300px'},'slow');
-	// });
 	$("#menu, #menu_word").css("position", "relative");
 	$("#menu, #menu_word").animate({'top': '-=100px', "fontSize": "-=1.5em"},'slow', function() {
-		$(".col-md-6").fadeIn("slow");
+		$("#left_column, #right_column").fadeIn("slow");
 	});
 	window.moveBar = 0;
-	//$("#menu, #menu_word").toggle();
 }
 
 function zoomIn(){

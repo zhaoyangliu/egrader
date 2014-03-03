@@ -199,7 +199,7 @@ img.hwImg1{
 .col-md-6 h5{
 	font-size:1.4em;
 }
-.row {
+#statistics_row {
 	position: relative;
 	top:-60px;
 }
