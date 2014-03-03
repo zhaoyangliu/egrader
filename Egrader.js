@@ -39,6 +39,9 @@ $(function(){
 		}
 		else if (window.mark_press == 1) {
 			$("*").css("cursor", "auto");
+			$("span.glyphicon-list-alt").css("cursor", "pointer");
+			$("img.arrow_img").css("cursor", "pointer");
+			$(".btn, .glyphicon").css("cursor", "pointer");
 			window.mark_press = 0;
 		}
 		
