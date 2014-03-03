@@ -72,7 +72,16 @@ $(function(){
 		});
 	});
 
+	$("#search_student").keyup(function() {
+		if ($("#search_student").val() == "E" || $("#search_student").val() == "e" ) {
+			$(".hide_tr").hide();
+		}
+		else $(".hide_tr").show();
+	});
+	
+
 });
+
 
 
 function moveEgrader() {
