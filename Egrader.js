@@ -1,8 +1,10 @@
 $(function(){
-	$("#comment1").toggle();
+	$("#comment1").hide();
 	$("#score_completed").hide();
+	$(".col-md-6").hide();
 	window.mark_press = 0;
 	window.hw_img = 0;
+	window.moveBar = 1;
 	
 	$(".score_input").bind("input",function(){
 		$("#score_completed").hide();
@@ -23,7 +25,7 @@ $(function(){
 	});
 
 	$(".glyphicon-list-alt").click(function() {
-		$("#comment1").toggle();
+		$("#comment1").fadeToggle();
 	});
 	
 	$("#score_complete").click(function() {
@@ -62,7 +64,28 @@ $(function(){
 			window.hw_img = 0;	
 		}
 	});
+
+	$(".level2").each(function(){
+		$(this).click(function() {
+			if (window.moveBar == 1)
+				moveEgrader();
+		});
+	});
+
 });
+
+
+function moveEgrader() {
+	// $("#menu, #menu_word").fadeOut('slow', function(){
+ //  		$(this).animate({'top': '-=300px'},'slow');
+	// });
+	$("#menu, #menu_word").css("position", "relative");
+	$("#menu, #menu_word").animate({'top': '-=100px', "fontSize": "-=1.5em"},'slow', function() {
+		$(".col-md-6").fadeIn("slow");
+	});
+	window.moveBar = 0;
+	//$("#menu, #menu_word").toggle();
+}
 
 function zoomIn(){
     $("#hwImg").css('width', $("#hwImg").width() + $(window).width() * 0.1);

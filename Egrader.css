@@ -39,6 +39,14 @@
     border-radius: 4px;
 }
 
+.search_student {
+	position: relative;
+	left: 3%;
+	border-radius: 4px;
+	font-size: 1.2em;
+	height: 32px;
+	width:35%;
+}
 
 
 span.glyphicon-list-alt {
@@ -128,10 +136,10 @@ img.hwImg1{
 }
 
 .container.menu{
-     margin-top: 100px;
+    margin-top: 100px;
 }
 
-#menu {width:200px; height:200px; text-align:center; margin:0 auto;}
+#menu {width:200px; height: auto; text-align:center; margin:0 auto;}
 #menu ul {margin:0; padding:0; list-style:none; white-space:nowrap; text-align:left; background:#FFF; border:1px solid #333; border-radius: 10px;}
 #menu ul {display:inline-block;}
 #menu li {margin:0; padding:0; list-style:none;}
@@ -179,3 +187,25 @@ img.hwImg1{
     display: inline;
     margin-right: 8px;
 }
+
+#left_column {
+	border-right:groove;
+}
+
+.col-md-6 h4{
+	font-size:1.8em;
+}
+
+.col-md-6 h5{
+	font-size:1.4em;
+}
+.row {
+	position: relative;
+	top:-60px;
+}
+
+#data_structure {
+	position:relative;
+	width:100%;
+}
+
