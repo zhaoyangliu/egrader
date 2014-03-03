@@ -20,7 +20,7 @@ $(function(){
 			sum_input.val(String(sum));
 	});
 
-	$(".notes_image").click(function() {
+	$(".glyphicon-list-alt").click(function() {
 		$("#comment1").toggle();
 	});
 	

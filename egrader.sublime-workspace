@@ -15,24 +15,32 @@
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 347.0,
+		"height": 127.0,
 		"selected_items":
 		[
 			[
-				"view",
-				"LaTeXTools: View PDF"
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"git pull",
+				"Git: Pull"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"lint",
+				"SublimeLinter: Show All Errors"
 			],
 			[
 				"push",
 				"Git: Push"
-			],
-			[
-				"quick",
-				"Git: Quick Commit"
-			],
-			[
-				"git add...",
-				"Git: Add..."
 			],
 			[
 				"git quick",
@@ -43,12 +51,20 @@
 				"Git: Add..."
 			],
 			[
-				"package",
-				"Package Control: Disable Package"
+				"quick",
+				"Git: Quick Commit"
 			],
 			[
-				"install",
-				"Package Control: Install Package"
+				"view",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"git add...",
+				"Git: Add..."
+			],
+			[
+				"package",
+				"Package Control: Disable Package"
 			],
 			[
 				"python",
@@ -65,10 +81,6 @@
 			[
 				"git Staus",
 				"Git: Status"
-			],
-			[
-				"git pull",
-				"Git: Pull"
 			],
 			[
 				"git status",
@@ -119,10 +131,18 @@
 	},
 	"file_history":
 	[
-		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/background.js",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.js",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.css",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLiu.html",
+		"/Users/zhaoyangliu/Desktop/Fee.one",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/bootstrap.min.css",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderZ.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLi.html",
+		"/Users/zhaoyangliu/Desktop/current/2014Spring/499_alok/challenge-master/README.md",
+		"/Users/zhaoyangliu/Desktop/untitled.html",
+		"/Users/zhaoyangliu/Desktop/tmp.md",
+		"/Users/zhaoyangliu/Desktop/current/499_2/trackingFree_extension/background.js",
 		"/Users/zhaoyangliu/Desktop/current/JOB/CV/amazon/Zhaoyangliu_CV.tex",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLv.html",
 		"/Users/zhaoyangliu/Desktop/holy-grail-3-column-liquid-layout-percentage/index.htm",
@@ -189,6 +209,12 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"score_input",
+			"&nbsp&nbsp&nbsp&nbsp&nbsp",
+			"<span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span>",
+			"form-inline",
+			"\" class=\"",
+			"md",
 			"position:relative;top:-3px;",
 			"\\\"",
 			"score_1",
@@ -310,13 +336,7 @@
 			"crossDomainLink",
 			"soso",
 			"match",
-			"hao123",
-			"crossDomainLink",
-			"fetchWeblist",
-			"track",
-			"tab",
-			"crossDomainLink",
-			"WebPage"
+			"hao123"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -373,7 +393,7 @@
 		"cols":
 		[
 			0.0,
-			0.458499659708,
+			0.514808854656,
 			1.0
 		],
 		"rows":

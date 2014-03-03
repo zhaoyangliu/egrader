@@ -1,16 +1,16 @@
 <html>
 
 <head>
-	<link rel = "stylesheet" type = "text/class" href = "Egrader.css">
-	<link rel="stylesheet" href="bootstrap.min.css">
-	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel = "stylesheet" type = "text/class" href = "Egrader.css">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
         <link href="jumbotron.css" rel="stylesheet">
-	<script src="bootstrap.min.js"></script>
-	<script src="Egrader.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="Egrader.js"></script>
 </head>
 
 <body>
-    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+    <div class="navbar navbar-inverse" role="navigation">
         <div class="container">
             <div class="navbar-header">
                 <a class="navbar-brand" href="#">eGrader</a>
@@ -30,68 +30,87 @@
     </div>
 
     <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron"> 
+    <div class="tools">
         <div class="container">
-            <p><a class="btn btn-primary btn-lg" role="button">Learn more &raquo;</a></p>
+            <div class="btn-toolbar" role="toolbar">
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-in"></span></button>
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-zoom-out"></span></button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span></button>
+                    <button type="button" class="btn btn-default smaller"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                </div>
+                <div class="btn-group">
+                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-arrow-left"></span></button>
+                </div>
+            </div>
         </div>            
     </div>
-
     <div class="container">
         <div class="row">
-            <div class="col-md-4">
-                <h2>Feedback and Marks</h2>
+            <div class="col-md-3">
+                <h3>Feedback and Marks</h3>
                 <br>
                 <div class="score_1">
-                <span>1.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
-                <div id = "comment1"><span style= "position:relative; left:60px;">Comments:</span><textarea class="form-control" rows="2" style= "position:relative; left:30px;width:40%;" > </textarea></div>
+                    <span>1.</span><input class="score_input form-inline " style= "width:40%;" type = "text"> <span class="glyphicon glyphicon-list-alt" style="font-size:3m;"></span>
+                        <div id = "comment1"><br><textarea class="form-control" rows="2" style= "position:relative; left:20px;width:70%;" placeholder="Comments:" ></textarea></div>
                 </div>
                 <br>
                 <div>
-                <span>2.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
+                <span>2.</span><input class="score_input form-inline " style= "width:40%;" type = "text"> <span class="glyphicon glyphicon-list-alt" style="font-size:3m;"></span>
                 </div>
                 <br>
                 <div>
-                <span>3.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
+                <span>3.</span><input class="score_input form-inline " style= "width:40%;" type = "text"> <span class="glyphicon glyphicon-list-alt" style="font-size:3m;"></span>
                 </div>
                 <br>
                 <div>
-                <span>4.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
+                <span>4.</span><input class="score_input form-inline " style= "width:40%;" type = "text"> <span class="glyphicon glyphicon-list-alt" style="font-size:3m;"></span>
                 </div>
                 <br>
                 <div>
-                <span>5.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
+                <span>5.</span><input class="score_input form-inline " style= "width:40%;" type = "text"> <span class="glyphicon glyphicon-list-alt" style="font-size:3m;"></span>
                 </div>
                 <br>
                 <div>
-                <span>6.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
-                </div>
-                <br>
-                <div>
-                <span>7.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
-                </div>
-                <br>
-                <div>
-                <span>8.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
-                </div>
-                <br>
-                <div>
-                <span>9.&nbsp&nbsp&nbsp&nbsp&nbsp</span><input class="score_input" class="form-inline " style= "width:40%;" type = "text"> <span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span> <img class = "notes_image" style="cursor:pointer;position:relative;top:-3px;" src="notes.png" height="30px">
-                </div>
-                <br>
-                <div>
-                    <span>Sum:  </span><input id="sum_input" class="form-inline " style= "width:40%;" type = "text"> <span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</span><span><a class="btn btn-default" id = "score_complete" role="button">Complete &raquo;</a></span>
+                    <br>
+                    <span>Sum:</span><input id="sum_input" class="form-inline " style= "width:40%;" type = "text"> <span>&nbsp&nbsp&nbsp&nbsp&nbsp</span><span><a class="btn btn-default" id = "score_complete" role="button">Complete &raquo;</a></span>
                     <div id = "score_completed">Completed!</div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. </p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <div class="col-md-7">
+                <h2>Homework 5 for Kathy</h2>
+                <div class="hw">
+                    <img src="img/hw5.jpg"/>
+                </div>
             </div>
-            <div class="col-md-4">
-                <h2>Heading</h2>
-                <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-                <p><a class="btn btn-default" href="#" role="button">View details &raquo;</a></p>
+            <div class="col-md-2">
+                <ul id="myTab" class="nav nav-tabs" >
+                    
+                    <li class="active"> 
+                        <a href="#info" data-toggle="tab">Info</a>
+                    </li>
+                    <li>
+                        <a href="#solution" data-toggle="tab">Solution</a>
+                    </li>
+                </ul>
+                <div id="myTabContent" class="tab-content">
+                    <div class="tab-pane fade" id="info">
+                         <p>Homework2 Info</p>
+                         <p>Deadline time: 11:59pm 2014-02-14</p>
+                         <p>Handin   time: 11:58pm 2014-02-14</p>
+                         <p>Student  Name: Eric Lee</p>
+                         <p>   ID        :7654321</p>
+                    </div>
+                    <div class="tab-pane fade active in" id="solution">
+                         <p> Solution 1: ax+b=c;</p>
+                         <p> Solution 2: z=f(x);</p>
+                         <p> Solution 3: True;  </p>
+                         <p> Solution 4: False; </p>
+                         <p> Solution 5: To prove that we need to....</p>
+                    </div>
+                </div>
             </div>
         </div>
         <hr>
