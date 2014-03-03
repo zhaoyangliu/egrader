@@ -39,8 +39,11 @@
                     <button type="button" class="btn btn-default" id="zoomOut" onclick="zoomOut()"><span class="glyphicon glyphicon-zoom-out"></span></button>
                 </div>
                 <div class="btn-group">
-                    <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-pencil"></span></button>
-                    <button type="button" class="btn btn-default smaller"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <button type="button" class="btn btn-default" id = "mark_btn"><span class="glyphicon glyphicon-pencil"></span></button>
+                    <button type="button" class="btn btn-default smaller dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-chevron-down"></span></button>
+                    <ul class="dropdown-menu">
+                        <li><img src="mark_dropdown.png"></li>
+                    </ul>
                 </div>
             </div>
         </div>            
@@ -131,9 +134,11 @@
                 </div>
             </div>
         </div>
+        <img class="arrow_img" id="previous_arrow" src="img/previous_arrow.png" style="position:relative;left:77%;height:50px;">
+        <img class="arrow_img" id="next_arrow" src="img/next_arrow.png" style="position:relative;left:80%;height:50px;">
         <hr>
         <footer>
-            <p>&copy; Company 2014</p>
+            <p>&copy; ACE 2014</p>
         </footer>
     </div>
 

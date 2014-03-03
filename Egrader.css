@@ -108,7 +108,16 @@ img.hwImg{
     
 }
 
+img.arrow_img {
+	cursor:pointer;
+}
+
 .cat{
     margin-top: 20px;
 
 }
+
+/** {
+	cursor: url(http://www.liuzy.net/mark.gif) 2 2;
+	cursor: url(mark.gif) 2 2, auto;
+}*/
