@@ -51,11 +51,11 @@ $(function(){
 
 	$(".arrow_img").click(function() {
 		if (window.hw_img == 0) {
-			$("#hwImg").attr("src", "img/hw5.jpg");
+                        window.location.replace("Egrader1.html");
 			window.hw_img = 1;
 		}
 		else if (window.hw_img == 1) {
-			$("#hwImg").attr("src", "img/hw2.jpg");
+                        window.location.replace("Egrader.html");
 			window.hw_img = 0;	
 		}
 	});
