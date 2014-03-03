@@ -28,3 +28,13 @@ $(function(){
 		$("#score_completed").show();
 	});
 });
+
+function zoomIn(){
+    $("#hwImg").css('width', $("#hwImg").width() + $(window).width() * 0.1);
+    $("#hwImg").css('height', 'auto');
+}
+
+function zoomOut(){
+    $("#hwImg").css('width', $("#hwImg").width() - $(window).width() * 0.1);
+    $("#hwImg").css('height', 'auto');
+}
