@@ -11,13 +11,69 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "stud.html",
+			"settings":
+			{
+				"buffer_size": 4692,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "stats.html",
+			"settings":
+			{
+				"buffer_size": 5986,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "Egrader.css",
+			"settings":
+			{
+				"buffer_size": 5333,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 2739,
+				"line_ending": "Unix"
+			}
+		}
 	],
 	"build_system": "",
 	"command_palette":
 	{
-		"height": 127.0,
+		"height": 147.0,
 		"selected_items":
 		[
+			[
+				"indent",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"latex",
+				"LaTeXTools: View PDF"
+			],
+			[
+				"in",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"inden",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"git push",
+				"Git: Push"
+			],
+			[
+				"git qui",
+				"Git: Quick Commit"
+			],
 			[
 				"install",
 				"Package Control: Install Package"
@@ -71,10 +127,6 @@
 				"Set Syntax: Python"
 			],
 			[
-				"git push",
-				"Git: Push"
-			],
-			[
 				"pull",
 				"Git: Pull"
 			],
@@ -111,7 +163,7 @@
 				"LaTeXTools: Jump to PDF"
 			]
 		],
-		"width": 647.0
+		"width": 372.0
 	},
 	"console":
 	{
@@ -132,12 +184,17 @@
 	"file_history":
 	[
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.js",
-		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.css",
+		"/Users/zhaoyangliu/Desktop/tmp/336.tex",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/README.md",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLiu.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader1.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderZ.html",
+		"/Users/zhaoyangliu/Desktop/EgraderZ副本 2.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/index.html",
+		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.css",
 		"/Users/zhaoyangliu/Desktop/Fee.one",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/bootstrap.min.css",
-		"/Users/zhaoyangliu/Desktop/current/330/egrader/Egrader.html",
-		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderZ.html",
 		"/Users/zhaoyangliu/Desktop/current/330/egrader/EgraderLi.html",
 		"/Users/zhaoyangliu/Desktop/current/2014Spring/499_alok/challenge-master/README.md",
 		"/Users/zhaoyangliu/Desktop/untitled.html",
@@ -209,6 +266,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"col-md-6",
+			"35.1",
+			"#url",
+			"row",
+			"col-md-",
+			"font",
+			"#url",
+			"cursor",
+			"head",
+			"-------",
+			"marked",
 			"score_input",
 			"&nbsp&nbsp&nbsp&nbsp&nbsp",
 			"<span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp </span>",
@@ -325,18 +393,7 @@
 			"BrowserCommand",
 			"command",
 			"open",
-			"POSTMESSAGE_SRC_DEST_BEG",
-			"start",
-			"3000",
-			"third",
-			"= new Arr",
-			"crossOpenListC",
-			"constructList",
-			"TrackHead.crossDomainLink",
-			"crossDomainLink",
-			"soso",
-			"match",
-			"hao123"
+			"POSTMESSAGE_SRC_DEST_BEG"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -355,13 +412,141 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "stud.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4692,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								740,
+								740
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "stats.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5986,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5593,
+								5593
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 2934.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		},
 		{
+			"selected": 0,
 			"sheets":
 			[
+				{
+					"buffer": 2,
+					"file": "Egrader.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5333,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								132,
+								132
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/CSS/CSS.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2839.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1499,
+								1499
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 307.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -393,7 +578,7 @@
 		"cols":
 		[
 			0.0,
-			0.514808854656,
+			0.375801607549,
 			1.0
 		],
 		"rows":

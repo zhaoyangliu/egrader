@@ -209,3 +209,13 @@ img.hwImg1{
 	width:100%;
 }
 
+#score_complete {
+	position: relative;
+	left: 70%;
+}
+
+#score_completed {
+	position: relative;
+	left:30%;
+	height: 1.5em;
+}
