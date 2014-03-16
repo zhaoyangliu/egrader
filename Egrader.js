@@ -2,6 +2,7 @@ $(function(){
 	$("#comment1").hide();
 	$("#score_completed").hide();
 	$("#left_column, #right_column").hide();
+	$("#wrapper").hide();
 	window.mark_press = 0;
 	window.hw_img = 0;
 	window.moveBar = 1;
@@ -79,6 +80,10 @@ $(function(){
 		else $(".hide_tr").show();
 	});
 	
+	$("#hwlist").click(function() {
+	    $(".panel").hide();
+		$("#wrapper").show();
+	});
 
 });
 
@@ -100,6 +105,12 @@ function zoomIn(){
 function zoomOut(){
     $("#hwImg").css('width', $("#hwImg").width() - $(window).width() * 0.1);
     $("#hwImg").css('height', 'auto');
+}
+function save(){
+    window.open("http://www.liuzy.net/testzip/Grades.zip","_self");
+}
+function email(){
+    window.open("mailto:ta@u.northwestern.com","_self");
 }
 
 
